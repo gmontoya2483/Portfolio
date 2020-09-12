@@ -7,4 +7,4 @@ Trabajo práctico Modulo PWI - Diplomatura FullStack Web Developer
 - HTML
 - CSS
 - Flex
-- Maquetado Bootstrap
+- Maquetado Bootstraps

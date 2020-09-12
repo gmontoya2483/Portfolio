@@ -1,61 +1,151 @@
-.avatar {
-  max-width: 300px;
-  border: 2px solid rgb(214, 214, 214);
-  border-radius: 50%;
-  margin: 0 auto;
+body {
+  margin: 0;
+  background-color: #ecf4f3;
+  color: #155263;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.mt_-110 {
+  margin-top: -180px;
+}
+
+.menu {
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.navbar_gm {
+  background-color: #155263;
 }
 
 .banner {
-  height: 50vh;
+  height: 30vh;
   background-image: url("../img/banner.jpg");
   background-size: cover;
 }
 
-.mt--220 {
-  margin-top: -220px;
+.avatar {
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.nombre {
+  letter-spacing: 0.25rem;
+  font-weight: bolder;
+}
+
+.perfil {
+  font-weight: lighter;
+  letter-spacing: 0.15rem;
+  color: #ff6f3c;
+}
+
+.titulo {
+  font-weight: bolder;
+  letter-spacing: 0.15rem;
+  color: #ff6f3c;
+}
+
+.img_opacity {
+  filter: opacity(80%);
+  -webkit-filter: opacity(80%);
+}
+
+.img_70_gm {
+  width: 70%;
+}
+
+.footer_gm {
+  background-color: rgb(255, 154, 60);
 }
 
 .proyectos {
-  background-color: rgb(247, 253, 255);
-}
-
-.proyecto {
-  border: 2px solid rgb(214, 214, 214);
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
-  box-shadow: 5px 5px 10px #888888;
+  background-color: rgba(255, 154, 60, 0.1);
 }
 
 .proyecto_icon {
   font-size: 30px;
+  color: #ff6f3c !important;
 }
 
-.navigation_bar {
-  height: 5vh;
+.proyecto_card_gm {
+  color: #155263;
+  background-color: rgba(255, 154, 60, 0);
 }
 
 .comentario {
   resize: none;
 }
 
-.contacto {
-  border: 2px solid rgb(214, 214, 214);
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
-  box-shadow: 5px 5px 10px #888888;
-}
-
-.footer {
-  background-color: #6b6b6b;
-  color: whitesmoke;
-}
-
-footer ul {
-  list-style: none;
-}
-
 footer i {
-  font-size: 25px;
+  font-size: 20px;
+}
+
+footer {
+  color: #ecf4f3;
+  background-color: #ff9a3c;
+  font-weight: lighter;
+}
+
+.copyright_gm {
+  font-weight: lighter;
+  font-size: 0.7rem;
+}
+
+/*
+Boton primario
+*/
+
+.btn-primary {
+  color: #ecf4f3;
+  background-color: #ff9a3c;
+  border-color: #ff9a3c;
+}
+
+.btn-primary:hover {
+  color: #ecf4f3;
+  background-color: #ff6f3c;
+  border-color: #ff9a3c;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #ecf4f3;
+  background-color: #ff6f3c;
+  border-color: #ff9a3c;
+  box-shadow: 0 0 0 0.2rem rgba(255, 154, 60, 0.5);
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: #ecf4f3;
+  background-color: #ff9a3c;
+  border-color: #ff9a3c;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #ecf4f3;
+  background-color: #ffc93c;
+  border-color: #ff9a3c;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 154, 60, 0.5);
+}
+
+/*
+Fin Boton primario
+*/
+
+@media (max-width: 768px) {
+  .solo_md {
+    display: none;
+  }
 }
